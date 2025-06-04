@@ -1,4 +1,4 @@
-// src/components/HeroSection.jsx
+
 
 import { useNavigate } from "react-router-dom";
 
@@ -8,7 +8,7 @@ const HeroSection = () => {
   return (
     <section className="bg-[#0B0B3B] text-white py-20 px-6">
       <div className="max-w-7xl mx-auto flex flex-col space-y-8">
-        {/* Headings */}
+      
         <div className="space-y-4">
           <h1 className="text-[2.5rem] md:text-[3.5rem] font-bold leading-tight text-left">
             <span className="text-[#8f5fff]">AI Front Office</span> <br />
@@ -27,7 +27,7 @@ const HeroSection = () => {
           </p>
         </div>
 
-        {/* Get Started Button */}
+      
         <div className="text-left">
           <button
             onClick={() => navigate("/register")}
@@ -37,7 +37,7 @@ const HeroSection = () => {
           </button>
         </div>
 
-        {/* Stats Section */}
+       
         <div className="flex flex-col md:flex-row items-start gap-12 mt-16">
           <div className="text-left">
             <h2 className="text-3xl md:text-4xl font-bold">2100+</h2>
