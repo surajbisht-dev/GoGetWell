@@ -5,22 +5,21 @@ const LoginPage = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-white px-4">
       <div className="w-full max-w-md">
-        {/* Logo */}
+      
         <div className="flex justify-start mb-6">
           <img src={logo} alt="GoGetWell Logo" className="w-14 h-14" />
         </div>
 
-        {/* Heading */}
+      
         <h1 className="text-3xl font-bold text-black mb-2 text-left">
           Store Login!
         </h1>
 
-        {/* Subheading */}
+       
         <p className="text-base text-gray-600 mb-6 text-left">
           Please enter your credentials to sign in!
         </p>
 
-        {/* Email Input */}
         <div className="mb-6">
           <label
             htmlFor="email"
@@ -36,7 +35,7 @@ const LoginPage = () => {
           />
         </div>
 
-        {/* Sign In Button */}
+     
         <div className="mb-6">
           <button
             type="submit"
@@ -46,14 +45,14 @@ const LoginPage = () => {
           </button>
         </div>
 
-        {/* Divider */}
+        
         <div className="flex items-center mb-6">
           <hr className="flex-grow border-gray-300" />
           <span className="mx-3 text-sm text-gray-600">or continue with</span>
           <hr className="flex-grow border-gray-300" />
         </div>
 
-        {/* Google Button */}
+        
         <button
           type="button"
           className="w-full flex items-center justify-center gap-2 py-3 border border-gray-300 rounded-md bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
