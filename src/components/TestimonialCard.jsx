@@ -1,4 +1,4 @@
-// src/components/TestimonialCard.jsx
+
 
 const TestimonialCard = ({ name, title, message, image }) => {
   return (
