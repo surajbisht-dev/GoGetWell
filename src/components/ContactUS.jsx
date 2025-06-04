@@ -12,7 +12,7 @@ const ContactUs = () => {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col justify-between">
       <div className="max-w-6xl mx-auto w-full px-4 py-16 flex flex-col md:flex-row gap-16">
-        {/* Left Side */}
+     
         <div className="flex-1">
           <h1 className="text-4xl text-gray-900 mb-6">Let's get in touch!</h1>
           <p className="text-gray-600 text-base mb-10 max-w-md">
@@ -20,9 +20,9 @@ const ContactUs = () => {
             us for quick and friendly support.
           </p>
 
-          {/* Contact Details */}
+         
           <div className="space-y-6">
-            {/* Phone */}
+        
             <div className="flex items-center gap-3">
               <div className="bg-purple-100 p-2 rounded-md text-purple-700 flex items-center justify-center">
                 <FaPhoneAlt size={18} />
@@ -33,7 +33,7 @@ const ContactUs = () => {
               </div>
             </div>
 
-            {/* Email */}
+   
             <div className="flex items-center gap-3">
               <div className="bg-purple-100 p-2 rounded-md text-purple-700 flex items-center justify-center">
                 <FaEnvelope size={18} />
@@ -45,7 +45,7 @@ const ContactUs = () => {
             </div>
           </div>
 
-          {/* Social Media */}
+          
           <div className="mt-10">
             <h2 className="text-base text-gray-800 mb-4">Connect With Us</h2>
             <div className="flex items-center gap-4">
@@ -59,10 +59,10 @@ const ContactUs = () => {
           </div>
         </div>
 
-        {/* Right Side (Form) */}
+       
         <div className="flex-1 bg-white p-8 rounded-2xl shadow-sm">
           <form className="space-y-6">
-            {/* Name Field */}
+           
             <div className="relative">
               <input
                 type="text"
@@ -75,7 +75,7 @@ const ContactUs = () => {
               />
             </div>
 
-            {/* Email Field */}
+         
             <div className="relative">
               <input
                 type="email"
@@ -88,7 +88,7 @@ const ContactUs = () => {
               />
             </div>
 
-            {/* Message Field */}
+           
             <div>
               <textarea
                 placeholder="Message"
@@ -97,7 +97,7 @@ const ContactUs = () => {
               ></textarea>
             </div>
 
-            {/* Submit Button */}
+       
             <button
               type="submit"
               className="w-full bg-purple-700 text-white py-3 rounded-lg text-sm hover:bg-purple-800 transition"
@@ -108,7 +108,7 @@ const ContactUs = () => {
         </div>
       </div>
 
-      {/* Footer */}
+     
       <footer
         id="contact"
         className="border-t border-gray-200 text-gray-500 text-sm py-6 px-6 flex flex-col md:flex-row items-center justify-between"
