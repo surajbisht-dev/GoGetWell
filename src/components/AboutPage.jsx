@@ -8,7 +8,7 @@ const AboutUs = () => {
       className="min-h-screen flex items-center justify-center bg-white px-6 py-12"
     >
       <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-        {/* Left Side Image */}
+   
         <div className="flex justify-center">
           <img
             src={aboutImage}
@@ -17,7 +17,7 @@ const AboutUs = () => {
           />
         </div>
 
-        {/* Right Side Content */}
+     
         <div>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 border-b-4 border-purple-600 inline-block pb-1">
             About Us
@@ -34,7 +34,7 @@ const AboutUs = () => {
             enhance the overall patient experience.
           </p>
 
-          {/* Features */}
+          
           <div className="flex flex-col md:flex-row gap-6">
             {/* Modern Solutions */}
             <div className="flex items-start gap-4">
@@ -57,7 +57,7 @@ const AboutUs = () => {
               </div>
             </div>
 
-            {/* Patient-Centric */}
+           
             <div className="flex items-start gap-4">
               <div className="bg-purple-100 p-3 rounded-lg">
                 <svg
