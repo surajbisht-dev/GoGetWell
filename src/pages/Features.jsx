@@ -1,4 +1,4 @@
-// src/pages/Features.jsx
+
 
 import Navbar from "../components/Navbar";
 import FeaturesSection from "../components/FeatureCard";
