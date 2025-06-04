@@ -5,7 +5,7 @@ import missionGif from "../assets/mission.gif"; // Adjust path if needed
 const Mission = () => {
   return (
     <section className="max-w-7xl mx-auto px-4 py-16 flex flex-col md:flex-row items-center justify-between">
-      {/* Text Section */}
+ 
       <div className="md:w-1/2 mb-10 md:mb-0 md:pr-10">
         <h1 className="text-4xl font-bold relative mb-6">
           Our Mission
@@ -24,7 +24,7 @@ const Mission = () => {
           management and digital transformation.
         </p>
 
-        {/* Features */}
+       
         <div className="flex flex-col sm:flex-row gap-6">
           <div className="flex items-center gap-4 w-full sm:w-[260px]">
             <div className="p-3 bg-indigo-100 rounded-md flex items-center justify-center w-12 h-12">
@@ -56,7 +56,7 @@ const Mission = () => {
         </div>
       </div>
 
-      {/* Image Section */}
+   
       <div className="md:w-1/2 flex justify-center">
         <img
           src={missionGif}
