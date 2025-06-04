@@ -1,4 +1,3 @@
-// src/pages/Register.jsx
 
 import { useNavigate } from "react-router-dom";
 
