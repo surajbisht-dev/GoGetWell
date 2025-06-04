@@ -1,4 +1,4 @@
-// src/components/FeatureCard.jsx
+
 
 const FeatureCard = ({ icon, title, description }) => {
   return (
