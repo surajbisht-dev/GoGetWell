@@ -1,4 +1,3 @@
-// src/pages/Pricing.jsx
 
 import Navbar from "../components/Navbar";
 import PricingSection from "../components/PricingCard";
