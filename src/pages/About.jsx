@@ -1,11 +1,11 @@
-// src/pages/About.jsx
+
 import React from "react";
 
 const About = () => {
   return (
     <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
-        {/* Left Side - GIF Image */}
+     
         <div className="flex-1 flex justify-center">
           <img
             src="/assets/aboutus.gif"
@@ -14,15 +14,14 @@ const About = () => {
           />
         </div>
 
-        {/* Right Side - Text Content */}
         <div className="flex-1">
-          {/* Heading */}
+  
           <h1 className="text-4xl font-bold text-gray-800 mb-4">About Us</h1>
 
-          {/* Underline */}
+   
           <div className="w-16 h-1 bg-purple-600 mb-6"></div>
 
-          {/* About Description */}
+          
           <p className="text-gray-600 mb-4 leading-relaxed">
             We are a pioneering AI-driven platform focused on revolutionizing
             the medical tourism industry. By addressing inefficiencies and
@@ -35,12 +34,12 @@ const About = () => {
             enhance the overall patient experience.
           </p>
 
-          {/* Bottom Feature Cards */}
+         
           <div className="grid md:grid-cols-2 gap-8">
-            {/* Card 1 */}
+         
             <div className="flex items-start gap-4">
               <div className="bg-purple-100 p-3 rounded-full">
-                {/* Lightning Icon */}
+              
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-6 w-6 text-purple-600"
@@ -66,10 +65,10 @@ const About = () => {
               </div>
             </div>
 
-            {/* Card 2 */}
+     
             <div className="flex items-start gap-4">
               <div className="bg-purple-100 p-3 rounded-full">
-                {/* DB Icon */}
+          
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-6 w-6 text-purple-600"
