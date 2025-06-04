@@ -1,4 +1,4 @@
-// src/components/PricingCard.jsx
+
 
 const PricingCard = ({
   title,
