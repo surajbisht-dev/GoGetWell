@@ -1,4 +1,3 @@
-// src/pages/Dashboard.jsx
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
